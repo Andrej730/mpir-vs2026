@@ -48,7 +48,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild skylake\avx x64 22
+prebuild skylake\avx x64 26
       </Command>
     </PreBuildEvent>
     <YASM>
@@ -64,14 +64,14 @@ prebuild skylake\avx x64 22
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild skylake\avx x64 22
+prebuild skylake\avx x64 26
       </Command>
     </PreBuildEvent>
     <YASM>
@@ -87,7 +87,7 @@ prebuild skylake\avx x64 22
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

@@ -77,7 +77,7 @@
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -88,7 +88,7 @@ postbuild "$(TargetPath)" 22
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -99,7 +99,7 @@ postbuild "$(TargetPath)" 22
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -110,7 +110,7 @@ postbuild "$(TargetPath)" 22
     </ClCompile>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>

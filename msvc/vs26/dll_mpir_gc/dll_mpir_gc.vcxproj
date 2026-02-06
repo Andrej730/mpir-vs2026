@@ -73,7 +73,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild gc Win32 22
+prebuild gc Win32 26
       </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -84,14 +84,14 @@ prebuild gc Win32 22
     </Link>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild gc Win32 22
+prebuild gc Win32 26
       </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -102,14 +102,14 @@ prebuild gc Win32 22
     </Link>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild gc x64 22
+prebuild gc x64 26
       </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -120,14 +120,14 @@ prebuild gc x64 22
     </Link>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <PreBuildEvent>
       <Command>cd ..\..\
-prebuild gc x64 22
+prebuild gc x64 26
       </Command>
     </PreBuildEvent>
     <ClCompile>
@@ -138,7 +138,7 @@ prebuild gc x64 22
     </Link>
     <PostBuildEvent>
       <Command>cd ..\..\
-postbuild "$(TargetPath)" 22
+postbuild "$(TargetPath)" 26
       </Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
